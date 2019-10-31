@@ -1,0 +1,33 @@
+<section>
+  <div class="container1">
+    <div class="row justify-content-center mb-5 pb-3">
+      <div class="col-md-7 heading-section ftco-animate text-center">
+        <h2>Best selling Bike Hardwares in India</h2>
+        <img style="width:25%;height:2.5px" src="./images/15.png">
+        <p>
+          Onelap vehicle tracking system is universal. It’s currently integrated with more than1500 models
+          of GPS tracking devices, including personal GPS trackers, automobile controllers and software-based "trackers"
+          installed as mobile apps on
+          smartphones. Every minute our server center receives
+          about half a million data packets from the tracking devices deployed worldwide.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<div class="container">
+  <div class="block-content hw-card">
+    <div class="row card-wrap">
+      <div class=" col-sm-6 col-md-4 col-xs-12" *ngFor="let product of products">
+        <div class="card card-adaptive grow">
+          <div class="card-title text-center">
+            {{product.name}}</div>
+          <div class=" text-center">
+            <img class="card-icon" src="{{product.image}}">
+          </div>
+          <a href="" class="btn btn-block">
+            Select </a>
+        </div>
+      </div>
+    </div>
+ </div>
+</div>
