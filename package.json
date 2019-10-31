@@ -28,7 +28,15 @@
         "rxjs": "~6.4.0",
         "rxjs-compat": "^6.3.3",
         "tslib": "^1.10.0",
-        "zone.js": "~0.9.1"
+        "zone.js": "~0.9.1",
+        "body-parser": "^1.17.2",
+        "express": "^4.17.1",
+        "firebase": "^7.2.2",
+        "jquery": "^3.4.1",
+        "mongoose": "^4.11.7",
+        "ngx-owl-carousel": "^2.0.7",
+        "owl.carousel": "^2.3.4",
+        "path": "^0.12.7"
     },
     "devDependencies": {
         "@angular-devkit/build-angular": "~0.803.16",
