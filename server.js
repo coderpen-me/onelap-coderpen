@@ -16,7 +16,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
 // Serve only the static files form the dist directory
-app.use(express.static(__dirname + '/dist'));
+app.use(express.static(__dirname + '/dist/onelap-coderpen'));
 app.get('/*', function(req, res) {
 
     res.sendFile(path.join(__dirname + '/dist/onelap-coderpen/index.html'));
