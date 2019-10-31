@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # OnelapCoderpen
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.16.
@@ -26,6 +25,3 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
-=======
-# onelap-coderpen
->>>>>>> f9a6029136d28b05b0a830e84774e9896a960dfe
