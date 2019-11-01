@@ -1,33 +1,65 @@
-<section>
-  <div class="container1">
-    <div class="row justify-content-center mb-5 pb-3">
-      <div class="col-md-7 heading-section ftco-animate text-center">
-        <h2>Best selling Bike Hardwares in India</h2>
-        <img style="width:25%;height:2.5px" src="./images/15.png">
-        <p>
-          Onelap vehicle tracking system is universal. It’s currently integrated with more than1500 models
-          of GPS tracking devices, including personal GPS trackers, automobile controllers and software-based "trackers"
-          installed as mobile apps on
-          smartphones. Every minute our server center receives
-          about half a million data packets from the tracking devices deployed worldwide.</p>
-      </div>
-    </div>
-  </div>
-</section>
-<div class="container">
-  <div class="block-content hw-card">
-    <div class="row card-wrap">
-      <div class=" col-sm-6 col-md-4 col-xs-12" *ngFor="let product of products">
-        <div class="card card-adaptive grow">
-          <div class="card-title text-center">
-            {{product.name}}</div>
-          <div class=" text-center">
-            <img class="card-icon" src="{{product.image}}">
-          </div>
-          <a href="" class="btn btn-block">
-            Select </a>
+<!-- Contents 3 -->
+<section class="fdb-block m-top pb-0">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-10 text-center">
+                <h2>Best selling Bike Hardwares in India</h2>
+                <img style="width:45%;height:2.5px" src="assets/images/15.png">
+                <p class="lead">Onelap vehicle tracking system is universal. It’s currently integrated with more than1500 models of GPS tracking devices, including personal GPS trackers, automobile controllers and software-based "trackers" installed as mobile apps on
+                    smartphones. Every minute our server center receives about half a million data packets from the tracking devices deployed worldwide</p>
+            </div>
         </div>
-      </div>
     </div>
- </div>
+</section>
+<div class="container section-padding">
+    <div class="block-content hw-card">
+        <div class="row card-wrap">
+            <div class="col-md-4 col-sm-6 col-xs-12" *ngFor="let product of products">
+                <div class="card card-adaptive grow">
+                    <div class="card-title text-center">
+                        {{product.name}} </div>
+                    <div class=" text-center">
+                        <img class="card-icon" src="{{product.image}}">
+                    </div>
+                    <a class="color-fff m-4 btn btn-primary " routerLink="/">Select</a>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
+<!-- Feature Area Starts -->
+<section class="feature-area pt-0 section-padding">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col col-md-8 text-center">
+                <h2>OneLap News</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-3 mb-20 col-md-6">
+                <div class="single-feature text-center item-padding">
+                    <img src="assets/images/blog-slider1.jpg" class="w-100">
+                    <h4>Car Trackers</h4>
+                </div>
+            </div>
+            <div class="col-lg-3 mb-20 col-md-6">
+                <div class="single-feature text-center item-padding">
+                    <img src="assets/images/blog-slider2.jpg" class="w-100">
+                    <h4>AIS 140 Trackers</h4>
+                </div>
+            </div>
+            <div class="col-lg-3 mb-20 col-md-6">
+                <div class="single-feature text-center item-padding">
+                    <img src="assets/images/blog-slider3.jpg" class="w-100">
+                    <h4> Bike Trackers</h4>
+                </div>
+            </div>
+            <div class="col-lg-3 mb-20 col-md-6">
+                <div class="single-feature text-center item-padding">
+                    <img src="assets/images/blog-slider3.jpg" class="w-100">
+                    <h4> Bike Trackers</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
