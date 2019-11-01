@@ -1288,3 +1288,22 @@ header + header {
 .bg-gray {
   background-color: #f4f7fe;
   color: #444444; }
+    @media (max-width:576px){
+      .sticky{
+        padding-top: 20%;
+      }
+    }
+    @media (min-width:786px){
+      .sticky{
+        padding-top: 10%;
+      }
+    }
+    @media (min-width:786px){
+      .sticky2{
+        padding-left:5%;
+        padding-right: 5%;
+      }
+    }
+.appicationpara{
+  color: #3390CB;;
+}
