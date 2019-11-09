@@ -1,53 +1,65 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900");
-@import url("https://fonts.googleapis.com/css?family=Ubuntu:400,500,700");
+
+@font-face {
+    font-family: 'Slate Pro';
+    font-style: initial;
+    font-weight: normal;
+    src: local('Slate Pro'), url('/src/assets/fonts/SlatePro.woff') format('woff');
+    }
+  @font-face {
+    font-family: 'Slate Pro Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Slate Pro'), url('/src/assets/fonts/SlatePro.woff') format('woff');
+    }
+    
 body {
     color: #777;
-    font-family: "Roboto", sans-serif;
     font-size: 15px;
-    font-weight: 400
+    font-weight: 400;
+    src: local('Slate Pro'), url('/src/assets/fonts/SlatePro.woff') format('woff');
 }
 
 h1 {
     color: #222;
-    font-family: "Ubuntu", sans-serif;
+  
     font-size: 45px !important;
-    font-weight: 700
+    font-weight: 700;
 }
 
 h2 {
     color: #222;
-    font-family: "Ubuntu", sans-serif;
+    
     font-size: 36px !important;
-    font-weight: 700
+
 }
 
 h3 {
     color: #222;
-    font-family: "Ubuntu", sans-serif;
+    
     font-size: 18px !important;
-    font-weight: 700;
+;
     text-transform: uppercase
 }
 
 h4 {
     color: #222;
-    font-family: "Ubuntu", sans-serif;
+    
     font-size: 16px !important;
     font-weight: 400
 }
 
 h5 {
     color: #777;
-    font-family: "Roboto", sans-serif;
+    
     text-transform: capitalize;
     font-size: 14px !important;
-    font-weight: 400
+  
 }
 
 h6 {
     color: #777;
     font-size: 12px !important;
-    font-family: "Roboto", sans-serif;
+    
     text-transform: uppercase;
     font-weight: 500
 }
@@ -139,7 +151,6 @@ textarea:focus {
 
 .nav-menu li {
     position: relative;
-    white-space: nowrap
 }
 
 .nav-menu>li {
@@ -297,7 +308,7 @@ textarea:focus {
     width: 100%;
     display: block;
     outline: none;
-    font-weight: 700
+
 }
 
 #mobile-nav ul li a:hover {
@@ -487,7 +498,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 .banner-area {
     padding: 100px 0 160px;
     background-color: #b0b0b0;
-    background-image: url("../images/banner-bg.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -3367,4 +3377,87 @@ h6 {
 .pad-steps {
     padding-left: 5%;
     padding-right: 5%;
+}
+
+.width-handle {
+    width: 220%;
+}
+
+.width-handle-c {
+    width: 110%;
+}
+
+@media (max-width: 1090px) {
+    .width-handle {
+        width: 190%;
+    }
+    .width-handle-c {
+        width: 115%;
+    }
+}
+
+@media (max-width: 960px) {
+    .width-handle {
+        width: 190%;
+    }
+    .width-handle-c {
+        width: 115%;
+    }
+}
+
+@media (max-width: 768px) {
+    .width-handle {
+        width: 220%;
+    }
+    .width-handle-c {
+        width: 220%;
+    }
+}
+
+@media (max-width: 576px) {
+    .width-handle {
+        width: 220%;
+    }
+    .width-handle-c {
+        width: 220%;
+    }
+}
+
+.switch {
+    display: block;
+}
+
+.anti-switch {
+    display: none;
+}
+
+.m-top {
+    margin-top: 100px;
+}
+
+.padding-res {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+@media (max-width: 960px) {
+    .switch {
+        display: none;
+    }
+    .anti-switch {
+        display: block;
+    }
+    .m-top {
+        margin-top: 66px;
+    }
+}
+
+.txtshadow {
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
+}
+
+.box-shadow {
+    border-radius: 1.5rem;
+    padding: 40px;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }

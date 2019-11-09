@@ -1,0 +1,10 @@
+/* Changing header color and heading weight for features section */
+
+h3{ 
+    color: #3390CB;
+    font-weight:400;
+    text-transform: none;
+}
+h2 {
+    font-weight: 500;
+}

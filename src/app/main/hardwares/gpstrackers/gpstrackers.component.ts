@@ -11,42 +11,42 @@ export class GPStrackersComponent implements OnInit {
     {
       id: '0',
       name: 'Navtelecom SMART S-24 xx',
-      image: '/src/assets/images/devices/device1.jpg',
+      image: 'assets/images/devices/device1.jpg',
       onelapScore: '60%',
       startRating: ''
     },
     {
       id: '1',
       name: 'Navtelecom SMART S-24 xx',
-      image: '/src/assets/images/devices/device2.jpg',
+      image: 'assets/images/devices/device2.jpg',
       onelapScore: '60%',
       startRating: ''
     },
     {
       id: '2',
       name: 'Naasldkvansdv',
-      image: '/src/assets/images/devices/device3.jpg',
+      image: 'assets/images/devices/device3.jpg',
       onelapScore: '30%',
       startRating: ''
     },
     {
       id: '3',
       name: 'asdkvmlasv',
-      image: '/src/assets/images/devices/device4.jpg',
+      image: 'assets/images/devices/device4.jpg',
       onelapScore: '50%',
       startRating: ''
     },
     {
       id: '4',
       name: 'Navtelecom SMART S-24 xx',
-      image: '/src/assets/images/devices/device5.png',
+      image: 'assets/images/devices/device5.png',
       onelapScore: '10%',
       startRating: ''
     },
     {
       id: '5',
       name: 'Navtelecom SMART S-24 xx',
-      image: '/src/assets/images/devices/device1.jpg',
+      image: 'assets/images/devices/device1.jpg',
       onelapScore: '40%',
       startRating: ''
     },
