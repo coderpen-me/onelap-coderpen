@@ -1,4 +1,3 @@
-
 @font-face {
     font-family: 'Slate Pro';
     font-style: initial;
@@ -15,13 +14,11 @@
 body {
     color: #777;
     font-size: 15px;
-    font-weight: 400;
-    src: local('Slate Pro'), url('/src/assets/fonts/SlatePro.woff') format('woff');
+    font-weight: 400; 
 }
 
 h1 {
     color: #222;
-  
     font-size: 45px !important;
     font-weight: 700;
 }
@@ -48,6 +45,7 @@ h4 {
     font-weight: 400
 }
 
+
 h5 {
     color: #777;
     
@@ -69,11 +67,14 @@ ul {
     padding: 0;
     list-style: none
 }
-
+.headpara{
+    margin:20%;
+}
 a:hover,
 a:focus {
     text-decoration: none
 }
+
 
 input:focus,
 textarea:focus {
@@ -222,7 +223,7 @@ textarea:focus {
     margin: 14px 0 0 0;
     padding: 10px;
     box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
-    background: #fff
+    background: #000;
 }
 
 .nav-menu ul li {
@@ -231,7 +232,7 @@ textarea:focus {
 
 .nav-menu ul li a {
     padding: 10px;
-    color: #333;
+    color: #fff;
     transition: 0.3s;
     display: block;
     font-size: 12px;
@@ -940,7 +941,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .footer-area {
     color: #fff;
-    background: #12151f
+    background: #000000;
 }
 
 .footer-area h3 {

@@ -1,7 +1,5 @@
-.bg {
+.banner-area {
     background-image: url(/assets/images/banners/onelap-drone.jpg);
-    max-height: 100%;
-    max-width: 100%;
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;

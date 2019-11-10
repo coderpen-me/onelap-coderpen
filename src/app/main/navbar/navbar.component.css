@@ -1,0 +1,16 @@
+.dropimages {
+    width: 40px;
+    height: auto;
+}
+
+.navhead h4 {
+    color: white;
+    text-transform: capitalize;
+    font-size: 10px;
+}
+.navhead p {
+    color: rgba(255, 255, 255, 0.486);
+    text-transform: capitalize;
+    size: 10px;
+}
+

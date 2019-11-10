@@ -621,10 +621,27 @@ select.form-control[size],
 textarea.form-control {
     height: auto
 }
-
-.form-group {
-    margin-bottom: 1rem
+form {
+    background-color: white;
+    margin-right: 15rem;
+    margin-left: 15rem; 
+    padding: 5%;
+    border-radius: 10px;
 }
+@media(max-width:576px){
+        form {
+        margin-right: 0.5rem;
+        margin-left: 0.5rem; 
+        border-radius: 10px;
+    }
+}
+.form-group {
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;    
+   
+}   
+
+ 
 
 .form-text {
     display: block;
@@ -1627,7 +1644,7 @@ p {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizelegibility;
-    padding: 7.5rem 0;
+    padding: 3.5rem 0;
     position: relative;
     background-size: cover;
     background-color: #FFF
