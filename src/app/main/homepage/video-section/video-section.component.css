@@ -1,8 +1,3 @@
-.demo-video-wrapper {
-    background-image: url(https://d3k5xyayaartr5.cloudfront.net/_assets/home-video/beach-waves-loop.jpg);
-}
-
-
 /* Video overlay and content */
 
 .video-overlay {
@@ -19,18 +14,17 @@
     position: relative;
     text-align: center;
     color: #FFF;
-    margin: 20% ;
-    
+    margin: 20% 0%;
 }
-@media(max-width:576px){
+
+@media(max-width:576px) {
     .video-hero--content {
         position: relative;
         text-align: center;
         color: #FFF;
-        margin: 5% ;
-        
+        margin: 5%;
     }
-} 
+}
 
 .video-hero--content h2 {
     font-size: 34px;
@@ -38,7 +32,6 @@
 }
 
 .video-hero--content p {
-    font-size: 20px;
     margin: 0;
 }
 
@@ -97,9 +90,7 @@ a:hover .subtitle {
 #content {
     padding: 40px 0;
 }
-.button-padding{
-margin-top: 10%;
-}
+
 
 /* CSS from jQuery Background Video plugin */
 
@@ -118,14 +109,28 @@ margin-top: 10%;
 
 .jquery-background-video {
     position: fixed;
-    width: auto;
-    height: auto;
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
     top: 50%;
     left: 50%;
-    -o-object-fit: contain;
-    object-fit: contain;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+    -o-object-fit: none;
+    object-fit: none;
+    -webkit-transform: translate(-50%, -50%) scale(1.24);
+    transform: translate(-50%, -50%) scale(1.24);
+}
+
+@media(min-width:1920px) {
+    .jquery-background-video {
+        position: fixed;
+        width: -webkit-fill-available;
+        height: -webkit-fill-available;
+        top: 50%;
+        left: 50%;
+        -o-object-fit: none;
+        object-fit: none;
+        -webkit-transform: translate(-50%, -50%) scale(1.5);
+        transform: translate(-50%, -50%) scale(1.5);
+    }
 }
 
 
@@ -191,9 +196,4 @@ margin-top: 10%;
 
 .jquery-background-video-pauseplay.pause:after {
     left: 10px;
-}
-h4 {
-    color: black;
-    margin-top: 5%;
-    font-weight: bolder;
 }
