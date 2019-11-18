@@ -40,6 +40,93 @@
             fadeIn: 2000
         });
     </script>
+    <script>
+        document.getElementById("client").onclick = function() {
+            myComment1()
+        };
+        document.getElementById("client").onclick = function() {
+            myComment2()
+        };
+        document.getElementById("client").onclick = function() {
+            myComment3()
+        };
+
+        function myComment1() {
+            document.getElementById("client").innerHTML = "I am bike rider, I used to go on long rides with my gang  I recently own a Himalayan and need one GPS tracker that can provide useful insights to my days of trips. This device, I feel really stand apart from all the dull and cocky gps tracker in terms of accuracy, responsiveness and reliability.";
+        }
+
+        function myComment2() {
+            document.getElementById("client").innerHTML = "This really helped our Municipal Corporation, to verify whether garbage trucks are collecting garbage from all the places. The device is really reliable in providing real time updates.";
+        }
+
+        function myComment3() {
+            document.getElementById("client").innerHTML = "I’ve purchased it once and currently lcoing the product a 5 start product will recommend to manage your fleets";
+        }
+    </script>
+    <script>
+        document.getElementById("client2").onclick = function() {
+            mypic1()
+        };
+        document.getElementById("client2").onclick = function() {
+            mypic2()
+        };
+        document.getElementById("client2").onclick = function() {
+            mypic3()
+        };
+
+        function mypic1() {
+            document.getElementById("client2").src = 'assets/images/man14.jpg';
+        }
+
+        function mypic2() {
+            document.getElementById("client2").src = 'assets/images/man13.jpg';
+        }
+
+        function mypic3() {
+            document.getElementById("client2").src = 'assets/images/man12.jpg';
+        }
+    </script>
+    <script>
+        function myeffect2() {
+            document.getElementById('two').style.filter = 'grayscale(100%)';
+            document.getElementById('three').style.filter = 'grayscale(100%)';
+            document.getElementById('one').style.filter = 'grayscale(0%)';
+            document.getElementById('change1').style.color = 'black';
+            document.getElementById('change2').style.color = '#989898';
+            document.getElementById('change3').style.color = '#989898';
+            document.getElementById('1').style.opacity = '1';
+            document.getElementById('2').style.opacity = '0.5';
+            document.getElementById('3').style.opacity = '0.5';
+        }
+
+        function myeffect1() {
+            document.getElementById('one').style.filter = 'grayscale(100%)';
+            document.getElementById('two').style.filter = 'grayscale(0%)';
+            document.getElementById('three').style.filter = 'grayscale(100%)';
+            document.getElementById('change2').style.color = 'black';
+            document.getElementById('change1').style.color = '#989898';
+            document.getElementById('change3').style.color = '#989898';
+            document.getElementById('1').style.opacity = '0.5';
+            document.getElementById('2').style.opacity = '0.5';
+            document.getElementById('3').style.opacity = '1';
+        }
+
+        function myeffect3() {
+            document.getElementById('one').style.filter = 'grayscale(100%)';
+            document.getElementById('three').style.filter = 'grayscale(0%)';
+            document.getElementById('two').style.filter = 'grayscale(100%)';
+            document.getElementById('change3').style.color = 'black';
+            document.getElementById('change1').style.color = '#989898';
+            document.getElementById('change2').style.color = '#989898';
+            document.getElementById('1').style.opacity = '0.5';
+            document.getElementById('2').style.opacity = '1';
+            document.getElementById('3').style.opacity = '0.5';
+        }
+
+        function iagree() {
+            alert('Are you sure you want to use of cookies?')
+        }
+    </script>
 
 </body>
 
