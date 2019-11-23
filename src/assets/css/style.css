@@ -168,7 +168,6 @@ textarea:focus {
 
 .menu-has-children ul li a {
     padding: 4px 10px !important;
-    text-transform: uppercase !important
 }
 
 .sf-arrows .sf-with-ul {
@@ -293,7 +292,6 @@ textarea:focus {
 #mobile-nav ul li a {
     color: #fff;
     font-size: 13px;
-    text-transform: uppercase;
     overflow: hidden;
     padding: 10px 22px 10px 15px;
     position: relative;
@@ -322,10 +320,6 @@ textarea:focus {
 
 #mobile-nav ul .menu-has-children i.fa-chevron-up {
     color: #244cfd
-}
-
-#mobile-nav ul .menu-has-children li a {
-    text-transform: capitalize
 }
 
 #mobile-nav ul .menu-item-active {
