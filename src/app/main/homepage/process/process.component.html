@@ -5,8 +5,8 @@
             <img alt="example-image" style="width:15%;height:3px;margin-top: -20px" src="assets/images/15.png" class="img-fluid">
         </div>
     </div>
-    <owl-carousel-o [options]="customOptions" id="fables-partner-carousel">
-        <ng-template carouselSlide>
+    <!--<owl-carousel-o [options]="customOptions" id="fables-partner-carousel">
+        <ng-template carouselSlide dotContent="<div class='col border-bottom border-primary text-center dot-style'>Device</div>">
             <div class="container">
                 <div class="row pad-steps justify-content-center align-items-center">
                     <div class="col-12 col-md-6 col-lg-6 ml-md-auto">
@@ -24,7 +24,7 @@
                 </div>
             </div>
         </ng-template>
-        <ng-template carouselSlide>
+        <ng-template carouselSlide dotContent="SIM">
             <div class="container">
                 <div class="row pad-steps justify-content-center align-items-center">
                     <div class="col-12 col-md-6 col-lg-6 ml-md-auto">
@@ -41,7 +41,7 @@
                 </div>
             </div>
         </ng-template>
-        <ng-template carouselSlide>
+        <ng-template carouselSlide dotContent="Install">
             <div class="container">
                 <div class="row pad-steps justify-content-center align-items-center">
                     <div class="col-12 col-md-6 col-lg-6 ml-md-auto">
@@ -60,7 +60,7 @@
                 </div>
             </div>
         </ng-template>
-        <ng-template carouselSlide>
+        <ng-template carouselSlide dotContent="Activate">
             <div class="container">
                 <div class="row pad-steps justify-content-center align-items-center">
                     <div class="col-12 col-md-6 col-lg-6 ml-md-auto">
@@ -79,6 +79,82 @@
                 </div>
             </div>
         </ng-template>
-    </owl-carousel-o>
 
+    </owl-carousel-o>
+-->
+    <div class="owl-carousel owlExample">
+        <div class="container" id="bookmark1">
+            <div class="row pad-steps justify-content-center align-items-center">
+                <div class="col-12 col-md-6 col-lg-6 ml-md-auto">
+                    <p class="h1 font-weight-normal lh-15">Step 1</p>
+                    <h2 class="onelap-color lh-15">You will Need a Hardware</h2>
+                    <p class="font-weight-normal lh-15 h5 mb-4">
+                        A Hardware is needed to transmit the real time<br> location of the vehicle to Onelap cloud server
+                    </p>
+                    <button type="button" class="btn btn-primary mt-1" style="border-radius: 50px;">Select your
+                            Hardware</button>
+                </div>
+                <div class="col-12 col-md-4 ml-md-auto">
+                    <img alt="image" class="img-fluid" style="max-width: 80%; margin:auto;" src="assets/images/step1.png">
+                </div>
+            </div>
+        </div>
+        <div class="container" id="bookmark2">
+            <div class="row pad-steps justify-content-center align-items-center">
+                <div class="col-12 col-md-6 col-lg-6 ml-md-auto">
+                    <p class="h1 font-weight-normal lh-15">Step 2</p>
+                    <h2 class="onelap-color lh-15">You will Need a Sim Card</h2>
+                    <p class="font-weight-normal lh-15 h5 mb-4">
+                        The hardware needs internet connectivity to<br> send the data over GSM network</p>
+                    <button type="button" class="btn btn-primary mt-1" style="border-radius: 50px;">Select your
+                            plan</button>
+                </div>
+                <div class="col-12 col-md-4 ml-md-auto">
+                    <img alt="image" class="img-fluid" style="max-width: 87%; margin:auto;" src="assets/images/step2.png">
+                </div>
+            </div>
+        </div>
+        <div class="container" id="bookmark3">
+            <div class="row pad-steps justify-content-center align-items-center">
+                <div class="col-12 col-md-6 col-lg-6 ml-md-auto">
+                    <div class="box">
+                        <p class="h1 font-weight-normal lh-15">Step 3</p>
+                        <h2 class="onelap-color lh-15">Install the hardware</h2>
+                        <p class="font-weight-normal lh-15 h5 mb-4">
+                            Get the hardware installed with a help of any<br> local technician near you</p>
+                    </div>
+                    <button type="button" class="btn btn-primary mt-1" style="border-radius: 50px;">Installation
+                            Guide</button>
+                </div>
+                <div class="col-12 col-md-4 ml-md-auto">
+                    <img alt="image" class="img-fluid" style="margin:auto;" src="assets/images/step3.png">
+                </div>
+            </div>
+        </div>
+        <div class="container" id="bookmark4">
+            <div class="row pad-steps justify-content-center align-items-center">
+                <div class="col-12 col-md-6 col-lg-6 ml-md-auto">
+                    <div class="box">
+                        <p class="h1 font-weight-normal lh-15">Step 4</p>
+                        <h2 class="onelap-color lh-15 ">Activate the hardware </h2>
+                        <p class="font-weight-normal lh-15 h5 mb-4">
+                            Download Onelap Telematics App from playstore<br> and signup and call our customer support team </p>
+                    </div>
+                    <button type="button" class="btn btn-primary mt-1" style="border-radius: 50px;">Download the
+                            app</button>
+                </div>
+                <div class="col-12 col-md-4 ml-md-auto">
+                    <img alt="image" class="img-fluid" style="max-width: 97%; margin:auto;" src="assets/images/step4.png">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bookmarks">
+        <ul class="test row setpad">
+            <li class="bookmark1 col border-bottom text-center active" data="0" style="font-weight: 100;cursor: pointer;">Device</li>
+            <li class="bookmark2 col border-bottom text-center" data="1" style="font-weight: 100;cursor: pointer;">SIM</li>
+            <li class="bookmark3 col border-bottom text-center" data="2" style="font-weight: 100;cursor: pointer;">Install</li>
+            <li class="bookmark4 col border-bottom text-center" data="3" style="font-weight: 100;cursor: pointer;">Activate</li>
+        </ul>
+    </div>
 </section>

@@ -16,6 +16,8 @@ export class ProcessComponent implements OnInit {
     navSpeed: 700,
     autoplay: true,
     autoplayTimeout: 2000,
+    dotsEach: true,
+    dotsData: true,
     // tslint:disable-next-line:max-line-length
     navText: [
       '<i class="fa fa-chevron-left fables-main-text-color fables-main-border-color fables-partner-nav-icon" aria-hidden="true">',

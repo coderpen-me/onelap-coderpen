@@ -3411,11 +3411,11 @@ h6 {
 }
 
 .width-handle {
-    width: 220%;
+    width: 550%;
 }
 
 .width-handle-c {
-    width: 110%;
+    width: 100%;
 }
 
 @media (max-width: 1090px) {
