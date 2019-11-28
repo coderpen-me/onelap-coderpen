@@ -8,26 +8,26 @@
             </p>
         </div>
         <div class="container form-margin ">
-            <form action="/sign_up" method="post">
+            <form action="/post" method="POST">
                 <div class="form-group">
                     <label for="name">Name*</label>
-                    <input type="name" class="form-control" id="name" placeholder="Enter your Name" style="border-radius:10px">
+                    <input type="name" name="name" class="form-control" id="name" placeholder="Enter your Name" style="border-radius:10px">
                 </div>
                 <div class="form-group">
                     <label for="email">Email address*</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your Email Address" style="border-radius: 10px">
+                    <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your Email Address" style="border-radius: 10px" required>
                 </div>
                 <div class="form-group">
-                    <label for="Contact">
+                    <label for="phone">
                         Contact
                         Number*</label>
-                    <input type="number" class="form-control" id="exampleInputEmail1" style="border-radius:10px" aria-describedby="Contact" placeholder="Enter you Conatct Number ">
+                    <input type="phone" name="phone" class="form-control" id="exampleInputEmail1" style="border-radius:10px" aria-describedby="Contact" placeholder="Enter you Conatct Number " required>
                 </div>
                 <div class="form-group form-check">
                     <input type="checkbox" class="form-check-input" id="exampleCheck1">
                     <p class="form-control-plain text">I agree to personal data processing privacy policy
                     </p>
-                    <button type="submit" class="btn btn-primary" style="width: 100%;">Submit</button>
+                    <button type="submit" (click)="ShowPop();" class="btn btn-primary" style="width: 100%;">Submit</button>
                 </div>
             </form>
         </div>

@@ -1,21 +1,20 @@
-//Install express server
 const express = require('express');
 const path = require('path');
 var bodyParser = require('body-parser');
 const app = express();
-const mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost:27017/onelapdb');
-var db = mongoose.connection;
-db.on('error', console.log.bind(console, "connection error"));
-db.once('open', function(callback) {
-    console.log("connection succeeded");
-})
+var email = require("emailjs");
 
 var cors = require('cors');
 
 const PORT = process.env.PORT || 5000;
 
-
+server = email.server.connect({
+    user: 'coderpen@gmail.com',
+    password: '123adarsh_A',
+    host: 'smtp.gmail.com',
+    ssl: true,
+    port: 465
+});
 
 //Cross origin support middle
 app.use(cors());
@@ -30,24 +29,28 @@ app.get('/*', function(req, res) {
     res.sendFile(path.join(__dirname + '/dist/onelap-coderpen/index.html'));
 });
 
-app.post('/sign_up', function(req, res) {
-        var name = req.body.name;
-        var email = req.body.email;
-        var phone = req.body.phone;
-
-        var data = {
-            "name": name,
-            "email": email,
-            "phone": phone
+app.post('/post', function(req, res) {
+    let name = req.body.name;
+    var email = req.body.email;
+    var phone = req.body.phone;
+    const data = {
+        from: 'Coderpen <coderpen@gmail.com>',
+        to: 'Adarsh Pandey <todayswinner.adarsh@gmail.com>',
+        subject: 'Website Query',
+        attachment: [
+            // tslint:disable-next-line:max-line-length
+            { data: '<html> <br> Name : ' + name + '<br> Email : ' + email + '<br> Phone : ' + phone + '</html>', alternative: true }
+        ]
+    };
+    server.send(data, (err, message) => {
+        if (err) {
+            console.log(err);
+        } else {
+            console.log(message);
         }
-        db.collection('Users').insertOne(data, function(err, collection) {
-            if (err) throw err;
-            console.log("Record inserted Successfully");
+    });
+});
 
-        });
-        return res.redirect('callback.component.html');
-    })
-    // Start the app by listening on the default Heroku port
 app.listen(PORT, () => {
     console.log(`Server is listening on port ${PORT}...`);
 });

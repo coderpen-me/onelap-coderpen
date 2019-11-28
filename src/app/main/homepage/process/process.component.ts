@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { OwlOptions } from 'ngx-owl-carousel-o';
 
+import * as $ from 'jquery';
+
 @Component({
   selector: 'app-process',
   templateUrl: './process.component.html',
@@ -49,7 +51,8 @@ export class ProcessComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-
+    $.getScript('../assets/js/vendor/owl-carousel.js');
+    $.getScript('../assets/js/main.js');
   }
 
 
