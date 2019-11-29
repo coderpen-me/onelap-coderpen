@@ -48,6 +48,13 @@ p {
     margin-top: 5%;
 }
 
+@media (min-width: 1400px) {
+    .bookmarks {
+        margin-bottom: 5%;
+        margin-top: 2%;
+    }
+}
+
 .bookmarks ul {
     margin: auto;
     width: auto;
