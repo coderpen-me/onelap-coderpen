@@ -9,8 +9,8 @@ var cors = require('cors');
 const PORT = process.env.PORT || 5000;
 
 server = email.server.connect({
-    user: 'coderpen@gmail.com',
-    password: '123adarsh_A',
+    user: '',
+    password: '',
     host: 'smtp.gmail.com',
     ssl: true,
     port: 465
