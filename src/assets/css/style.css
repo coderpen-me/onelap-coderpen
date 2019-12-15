@@ -3569,16 +3569,21 @@ h6 {
 }
 
 .cstm-btn {
-    padding: .5rem 1rem;
-    font-size: 1.5rem;
-    line-height: 1.5;
-    border-radius: .3rem;
+    width: 180.6px;
+    height: 45.7px;
     margin: 5%;
+    border-radius: 3.8px;
+    box-shadow: 1px 1px 2px 0 rgba(0, 0, 0, 0.1);
+    background-color: #33c09b;
+    font-size: 20px;
+    font-weight: bolder;
 }
 
 .head-sec {
-    font-size: 40pt;
+      font-size: 50px;
     font-weight: 400;
+    color: #000000;
+    font-weight: bolder;
 }
 
 .lh-15 {

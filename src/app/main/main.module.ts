@@ -23,6 +23,7 @@ import { DronesComponent } from './drones/drones.component';
 import { HeavyEquipmentsComponent } from './heavy-equipments/heavy-equipments.component';
 import { RentalbikesComponent } from './rentalbikes/rentalbikes.component';
 import { DeliveryComponent } from './delivery/delivery.component';
+import { RatingsComponent } from './hardwares/gpstrackers/ratings/ratings.component';
 
 
 @NgModule({
@@ -45,6 +46,7 @@ import { DeliveryComponent } from './delivery/delivery.component';
     HeavyEquipmentsComponent,
     RentalbikesComponent,
     DeliveryComponent,
+    RatingsComponent,
   ],
   imports: [
     MainRoutingModule,

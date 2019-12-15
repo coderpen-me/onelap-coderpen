@@ -82,3 +82,15 @@
     top: 38%;
     left: 64%;
 }
+.comment {
+    font-family: SlatePro;
+    font-size: 18px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: center;
+    color: #3e3939;    
+    margin: 8%;
+}

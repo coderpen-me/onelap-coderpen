@@ -1,6 +1,6 @@
 .card {
     border: 1px solid #ebebeb;
-    padding: 5px 30px;
+   
     margin-bottom: 35px;
 }
 
@@ -14,4 +14,20 @@
     width: auto;
     width: 8.5rem;
     height: 7rem;
+}
+.cstm-btn {
+    border: 1px solid rgba(0, 0, 0, 0.294);
+    color: white;
+    font-weight: normal;
+    background-color:  #000000;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    opacity: 0.8;
+}
+.onelapscore {
+    font-weight: normal;display: inline;color: rgba(0, 0, 0, 0.671);
+}
+.onelapscorepercent {
+    font-weight: bolder;display: inline;color: #3390CB;
 }

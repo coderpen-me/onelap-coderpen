@@ -15,8 +15,14 @@ p {
 
 .border-bottom {
     border-bottom: 4px solid #dee2e6 !important;
+    margin-left:3%;
+    margin-right: 3%;
 }
-
+@media (max-width: 576px){
+.border-bottom {
+  border-bottom : 4px solid #dee2e6 ;
+}
+}
 .setpad {
     padding-left: 25%;
     padding-right: 25%;

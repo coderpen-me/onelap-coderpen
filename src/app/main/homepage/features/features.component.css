@@ -4,8 +4,28 @@ h3 {
     color: #33C09B;
     font-weight: 400;
     text-transform: none;
+    text-align: left;
 }
 
-h2 {
-    font-weight: 500;
+.banner h2 {
+    font-family: SlatePro-Bk;
+    font-size: 40px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.1;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+.items p{
+    font-family: SlatePro-Bk;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: 0.67px;
+    text-align: left;
+    color: #969696;
+    
 }

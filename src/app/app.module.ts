@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { HttpClientModule } from '@angular/common/http';
 import { MainModule } from './main/main.module';
 import { CarouselModule } from 'ngx-owl-carousel-o';
+import { RatingModule } from 'ng-starrating'; 
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { CarouselModule } from 'ngx-owl-carousel-o';
     FormsModule,
     HttpClientModule,
     AppRoutingModule,
-    CarouselModule
+    CarouselModule,
+    RatingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
