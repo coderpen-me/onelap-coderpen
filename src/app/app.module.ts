@@ -11,9 +11,12 @@ import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import {NgbdRatingDecimalModule} from './main/hardwares/gpstrackers/rating.module';
 
 
+
+
 @NgModule({
   declarations: [
     AppComponent,
+    
   ],
   imports: [
     MainModule,

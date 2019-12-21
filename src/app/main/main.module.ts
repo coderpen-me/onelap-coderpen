@@ -23,10 +23,8 @@ import { HeavyEquipmentsComponent } from './heavy-equipments/heavy-equipments.co
 import { RentalbikesComponent } from './rentalbikes/rentalbikes.component';
 import { DeliveryComponent } from './delivery/delivery.component';
 import { RatingModule } from 'ng-starrating';
-
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import {NgbdRatingDecimalModule} from './hardwares/gpstrackers/rating.module';
-
  
 
 
@@ -50,6 +48,7 @@ import {NgbdRatingDecimalModule} from './hardwares/gpstrackers/rating.module';
     HeavyEquipmentsComponent,
     RentalbikesComponent,
     DeliveryComponent,
+
   ],
   imports: [
     MainRoutingModule,

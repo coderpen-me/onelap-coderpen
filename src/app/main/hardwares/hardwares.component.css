@@ -3,7 +3,17 @@
     padding: 30px;
     margin-bottom: 35px;
 }
-
+.card-title {
+    font-family: SlatePro-Bk;
+    font-size: 18.5px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.14;
+    letter-spacing: normal;
+    text-align: left;
+    color: #333333;
+  }
 .card-adaptive {
     max-width: 580px;
     margin-left: auto;
