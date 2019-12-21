@@ -4,4 +4,6 @@ export class Product {
     image: string;
     onelapScore: string;
     startRating: number;
+    recommended : string;
+    Discount  : string;
 }
