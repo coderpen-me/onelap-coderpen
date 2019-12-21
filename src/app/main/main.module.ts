@@ -3,7 +3,6 @@ import { NgModule } from '@angular/core';
 import { CarouselModule } from 'ngx-owl-carousel-o';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { RouterModule, Routes } from '@angular/router';
-
 import { MainComponent } from './main.component';
 import { HomepageComponent } from './homepage/homepage.component';
 import { NavbarComponent } from './navbar/navbar.component';
@@ -23,7 +22,12 @@ import { DronesComponent } from './drones/drones.component';
 import { HeavyEquipmentsComponent } from './heavy-equipments/heavy-equipments.component';
 import { RentalbikesComponent } from './rentalbikes/rentalbikes.component';
 import { DeliveryComponent } from './delivery/delivery.component';
-import { RatingsComponent } from './hardwares/gpstrackers/ratings/ratings.component';
+import { RatingModule } from 'ng-starrating';
+
+import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+import {NgbdRatingDecimalModule} from './hardwares/gpstrackers/rating.module';
+
+ 
 
 
 @NgModule({
@@ -46,14 +50,16 @@ import { RatingsComponent } from './hardwares/gpstrackers/ratings/ratings.compon
     HeavyEquipmentsComponent,
     RentalbikesComponent,
     DeliveryComponent,
-    RatingsComponent,
   ],
   imports: [
     MainRoutingModule,
     BrowserModule,
     CarouselModule,
     BrowserAnimationsModule,
-    RouterModule
+    RouterModule,
+    RatingModule,
+    NgbModule,
+    NgbdRatingDecimalModule
   ],
   providers: [],
   bootstrap: []

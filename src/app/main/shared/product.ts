@@ -3,5 +3,5 @@ export class Product {
     name: string;
     image: string;
     onelapScore: string;
-    startRating: string;
+    startRating: number;
 }

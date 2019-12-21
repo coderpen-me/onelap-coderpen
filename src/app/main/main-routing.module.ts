@@ -24,7 +24,7 @@ const routes: Routes = [
             { path: "municipal", component: MunicipalcorporationComponent },
             { path: "drones", component: DronesComponent },
             { path: "rentalbikes", component: RentalbikesComponent },
-            { path: "delivery", component: DeliveryComponent }
+            { path: "delivery", component: DeliveryComponent },
 
         ]
     }

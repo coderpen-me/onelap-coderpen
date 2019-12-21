@@ -25,7 +25,7 @@ h1 {
 
 h2 {
     color: #222;
-    font-size: 36px !important;
+    font-weight: 700;
 }
 
 h3 {
@@ -3482,7 +3482,7 @@ h6 {
         display: block;
     }
     .m-top {
-        margin-top: 66px;
+        margin-top: 24px;
     }
 }
 
@@ -3580,11 +3580,22 @@ h6 {
 }
 
 .head-sec {
-      font-size: 50px;
-    font-weight: 400;
+    font-size: 50px;
+    font-weight: 800;
     color: #000000;
-    font-weight: bolder;
+    padding: 1rem;
+    
 }
+@media (max-width: 960px) {
+    .head-sec {
+        font-size: 36px;
+      font-weight: 500;
+      color: #000000;
+      font-weight: bolder;
+      padding: 0;
+  }      
+}
+
 
 .lh-15 {
     line-height: 1.5;

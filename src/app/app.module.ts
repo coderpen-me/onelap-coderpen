@@ -7,6 +7,9 @@ import { HttpClientModule } from '@angular/common/http';
 import { MainModule } from './main/main.module';
 import { CarouselModule } from 'ngx-owl-carousel-o';
 import { RatingModule } from 'ng-starrating'; 
+import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+import {NgbdRatingDecimalModule} from './main/hardwares/gpstrackers/rating.module';
+
 
 @NgModule({
   declarations: [
@@ -19,7 +22,9 @@ import { RatingModule } from 'ng-starrating';
     HttpClientModule,
     AppRoutingModule,
     CarouselModule,
-    RatingModule
+    RatingModule,
+    NgbModule,
+    NgbdRatingDecimalModule
   ],
   providers: [],
   bootstrap: [AppComponent]

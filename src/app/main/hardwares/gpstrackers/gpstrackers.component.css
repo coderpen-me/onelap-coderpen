@@ -1,9 +1,16 @@
 .card {
-    border: 1px solid #ebebeb;
-   
     margin-bottom: 35px;
+    border: solid 0.4 px #231f20;
+  }
+.card-title {
+  font-family: SlatePro;
+  font-size: 18px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+ letter-spacing: normal;
+  color: #000000;
 }
-
 .card-adaptive {
     max-width: 580px;
     margin-left: auto;
@@ -17,7 +24,6 @@
 }
 .cstm-btn {
     border: 1px solid rgba(0, 0, 0, 0.294);
-    color: white;
     font-weight: normal;
     background-color:  #000000;
     margin: 0;
@@ -26,8 +32,28 @@
     opacity: 0.8;
 }
 .onelapscore {
-    font-weight: normal;display: inline;color: rgba(0, 0, 0, 0.671);
+    font-family: SlatePro;
+    font-size: 15px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.9;
+    letter-spacing: normal;
+     color: #4d4d4d;
 }
-.onelapscorepercent {
-    font-weight: bolder;display: inline;color: #3390CB;
-}
+
+.star {
+    position: relative;
+    display: inline-block;
+    font-size: 1.2rem;
+    color: #ffffff;
+
+  }
+  .full {
+    color: #33bf9a;
+  }
+  .half {
+    position: absolute;
+    display: inline-block;
+    overflow: hidden;
+    color:  #33bf9a; }

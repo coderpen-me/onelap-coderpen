@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { StarRatingComponent } from 'ng-starrating';
-import { Product } from '../../shared/product';
+// import { Product } from '../../shared/product';
 
 @Component({
   selector: 'app-gpstrackers',
@@ -8,59 +7,53 @@ import { Product } from '../../shared/product';
   styleUrls: ['./gpstrackers.component.css'],
 })
 export class GPStrackersComponent implements OnInit {
-  products: Product[] = [
-    {
-      id: '0',
-      name: 'Navtelecom SMART S-24 xx',
-      image: 'assets/images/devices/device1.jpg',
-      onelapScore: '60%',
-      startRating: ''
-    },
-    {
-      id: '1',
-      name: 'Navtelecom SMART S-24 xx',
-      image: 'assets/images/devices/device2.jpg',
-      onelapScore: '60%',
-      startRating: ''
-    },
-    {
-      id: '2',
-      name: 'Naasldkvansdv',
-      image: 'assets/images/devices/device3.jpg',
-      onelapScore: '30%',
-      startRating: ''
-    },
-    {
-      id: '3',
-      name: 'asdkvmlasv',
-      image: 'assets/images/devices/device4.jpg',
-      onelapScore: '50%',
-      startRating: ''
-    },
-    {
-      id: '4',
-      name: 'Navtelecom SMART S-24 xx',
-      image: 'assets/images/devices/device5.png',
-      onelapScore: '10%',
-      startRating: ''
-    },
-    {
-      id: '5',
-      name: 'Navtelecom SMART S-24 xx',
-      image: 'assets/images/devices/device1.jpg',
-      onelapScore: '40%',
-      startRating: ''
-    },
+  // products: Product[] = [
+  //   {
+  //     id: '0',
+  //     name: 'Navtelecom SMART S-24 xx',
+  //     image: 'assets/images/devices/device1.jpg',
+  //     onelapScore: '60%',
+  //     startRating: 4
+  //   },
+  //   {
+  //     id: '1',
+  //     name: 'Navtelecom SMART S-24 xx',
+  //     image: 'assets/images/devices/device2.jpg',
+  //     onelapScore: '60%',
+  //     startRating: 3
+  //   },
+  //   {
+  //     id: '2',
+  //     name: 'Naasldkvansdv',
+  //     image: 'assets/images/devices/device3.jpg',
+  //     onelapScore: '30%',
+  //     startRating: 2
+  //   },
+  //   {
+  //     id: '3',
+  //     name: 'asdkvmlasv',
+  //     image: 'assets/images/devices/device4.jpg',
+  //     onelapScore: '50%',
+  //     startRating: 5
+  //   },
+  //   {
+  //     id: '4',
+  //     name: 'Navtelecom SMART S-24 xx',
+  //     image: 'assets/images/devices/device5.png',
+  //     onelapScore: '10%',
+  //     startRating: 1
+  //   },
+  //   {
+  //     id: '5',
+  //     name: 'Navtelecom SMART S-24 xx',
+  //     image: 'assets/images/devices/device1.jpg',
+  //     onelapScore: '40%',
+  //     startRating: 3
+  //   },
 
-  ]
+  // ]
   constructor() {
   }
    ngOnInit() {
   }
-  onRate($event:{oldValue:number, newValue:number, starRating:StarRatingComponent}) {
-    alert(`Old Value:${$event.oldValue}, 
-      New Value: ${$event.newValue}, 
-      Checked Color: ${$event.starRating.checkedcolor}, 
-      Unchecked Color: ${$event.starRating.uncheckedcolor}`);
-}
 }

@@ -152,7 +152,7 @@ dfn {
 
 b,
 strong {
-    font-weight: bolder
+    font-weight: 800
 }
 
 small {
@@ -425,8 +425,15 @@ h6 {
 }
 
 .lead {
-    font-size: 1.25rem;
-    font-weight: 300
+    text-align: justify;
+    font-family: SlatePro;
+    font-size: 18px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    color:  #666666;
 }
 
 .display-1 {
