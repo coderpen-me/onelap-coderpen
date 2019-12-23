@@ -3567,7 +3567,112 @@ h6 {
 .onelap-color {
     color: #33C09B;
 }
+ /* CSS FOR APPLICATION PAGES STARTS HERE */
 
+.applicationheading {
+    font-size: 51px;
+    font-weight: 501;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+}
+.applicationpara {
+    font-size: 25px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.24;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+
+}
+.applicationbutton {    
+    color: #000;
+  border-radius: 10px;
+    background-color: #ffffff;
+    font-size: 25px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.24;
+    letter-spacing: normal;
+    text-align: left;
+    display: inline-block;
+    padding: 6px 30px !important;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all 0.2s ease-in-out}
+
+.applicationHeadingandpara h1{
+    font-size: 51px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+}
+@media(max-width:768px){
+
+.applicationHeadingandpara h1{
+font-size:40px;
+}
+
+.applicationHeadingandpara p{
+font-size: 26px;
+}
+
+.applicationHeadingandpara p{
+font-size: 17px;
+}
+}
+.applicationHeadingandpara h2{
+    font-size: 34px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.21;
+    letter-spacing: normal;
+    text-align: left;
+    color: #33c09b;
+}
+.applicationHeadingandpara p{
+    font-size: 17px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.18;
+    letter-spacing: normal;
+    text-align: left;
+    color: #808080;
+}
+.applicationHeadingandpara .headings2{
+    font-size: 34px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.18;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+}
+.applicationHeadingandpara .para2{
+    font-size: 17px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.18;
+    letter-spacing: normal;
+    text-align: left;
+    color: #808080;
+}
+
+/* CSS FOR APPLICATION PAGES ENDS HERE */
 .cstm-btn {
     width: 180.6px;
     height: 45.7px;
@@ -3588,7 +3693,7 @@ h6 {
 }
 @media (max-width: 960px) {
     .head-sec {
-        font-size: 36px;
+      font-size: 36px;
       font-weight: 500;
       color: #000000;
       font-weight: bolder;

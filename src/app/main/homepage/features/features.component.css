@@ -8,7 +8,7 @@ h3 {
 }
 
 .banner h2 {
-    font-family: SlatePro-Bk;
+
     font-size: 40px;
     font-weight: normal;
     font-stretch: normal;
@@ -18,7 +18,7 @@ h3 {
     color: #ffffff;
 }
 .items p{
-    font-family: SlatePro-Bk;
+
     font-size: 16px;
     font-weight: normal;
     font-stretch: normal;
@@ -27,5 +27,14 @@ h3 {
     letter-spacing: 0.67px;
     text-align: left;
     color: #969696;
-    
+}
+@media(max-width:576px){
+    .items p{
+        text-align: inherit;
+    }   
+}
+@media(max-width:576px){
+    h3{
+        text-align: inherit;
+    }   
 }
