@@ -51,7 +51,7 @@ export class ProcessComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    //  $.getScript('../assets/js/main.js');
+     $.getScript('../assets/js/main.js');
     $.getScript('../assets/js/vendor/owl-carousel.js');
    
   }
