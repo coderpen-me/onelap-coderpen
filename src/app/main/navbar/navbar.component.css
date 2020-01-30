@@ -2,7 +2,6 @@
     width: 40px;
     height: auto;
 }
-
 .navhead h4 {
     color: white;
     text-transform: capitalize;
@@ -17,4 +16,13 @@
 
 .nav-ele {
     padding: 14px 0;
+}
+@media(max-width:576px){
+.switch  p {
+    display: none;
+}
+.width-handle{
+    width: 100% ;
+}
+
 }

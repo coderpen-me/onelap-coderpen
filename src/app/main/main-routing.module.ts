@@ -10,7 +10,7 @@ import { MunicipalcorporationComponent } from './municipalcorporation/municipalc
 import { DronesComponent } from './drones/drones.component';
 import { RentalbikesComponent } from './rentalbikes/rentalbikes.component';
 import { DeliveryComponent } from './delivery/delivery.component';
-
+ import {AppStoreComponent} from './app-store/app-store.component'
 
 const routes: Routes = [
     {
@@ -25,6 +25,7 @@ const routes: Routes = [
             { path: "drones", component: DronesComponent },
             { path: "rentalbikes", component: RentalbikesComponent },
             { path: "delivery", component: DeliveryComponent },
+            {path : "app-store", component:AppStoreComponent}
 
         ]
     }

@@ -25,6 +25,7 @@ import { DeliveryComponent } from './delivery/delivery.component';
 import { RatingModule } from 'ng-starrating';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import {NgbdRatingDecimalModule} from './hardwares/gpstrackers/rating.module';
+import { AppStoreComponent } from './app-store/app-store.component';
  
 
 
@@ -48,6 +49,7 @@ import {NgbdRatingDecimalModule} from './hardwares/gpstrackers/rating.module';
     HeavyEquipmentsComponent,
     RentalbikesComponent,
     DeliveryComponent,
+    AppStoreComponent,
 
   ],
   imports: [

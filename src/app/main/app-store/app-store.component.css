@@ -1,0 +1,36 @@
+.banner-area-m {
+    background-image: url(/assets/images/5059.jpg);
+    max-width:  30%;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media(max-width:786px){
+    .banner-area-m {
+        background-image: url(/assets/images/5059.jpg);
+        max-width:  26%;
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+@media(min-width:1280px){
+    .banner-area-m {
+        background-image: url(/assets/images/5059.jpg);
+        max-width:  25%;
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+@media(min-width:1440px){
+    .banner-area-m {
+        background-image: url(/assets/images/5059.jpg);
+        max-width:  26%;
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}

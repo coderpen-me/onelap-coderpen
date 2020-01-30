@@ -8,6 +8,10 @@
         font-weight: 400;
         font-size: 100px;
     }
+    .h5 {
+        font-size: 1.25rem;
+        margin-right: 52%;
+    }
 
     p {
         color: black;
@@ -21,6 +25,12 @@
     @media (max-width: 576px){
     .border-bottom {
     border-bottom : 4px solid #dee2e6 ;
+
+    }
+    .h5 {
+        font-size: 1rem;
+        margin-right: 0%;
+        text-align: justify;
     }
     }
     .setpad {
